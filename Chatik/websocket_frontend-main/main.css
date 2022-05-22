@@ -1,0 +1,145 @@
+/* Overriding defaults */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    padding: 0;
+}
+/* End - Overriding defaults */
+
+
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E2E2E2;
+}
+
+header {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 30px;
+}
+
+section.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+section.right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login_box {
+    height: 300px;
+    width: 300px;
+}
+
+#login_box form {
+    font-weight: bold;
+    padding: 15px;
+}
+
+#login_box form div:last-of-type {
+    text-align: center;
+}
+
+#users_box {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+#users_box h1 {
+    border-bottom: solid 2px white;
+}
+
+#chat_box {
+    height: 300px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+#chat_box p {
+    margin-left: 15px;
+}
+
+#message_box {
+    height: 200px;
+    width: 100%;
+}
+
+#message_box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#message_box form section {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+#message_box form div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Classes */
+.text_input {
+    font-size: large;
+    color: white;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px #F43484;
+    transition: border-bottom .2s;
+}
+
+.text_input:focus {
+    border-bottom: solid 2px #FF5FAF;
+}
+
+.button {
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #F43484;
+    color: white;
+    transition: background-color .5s;
+}
+
+.button:hover {
+    background-color: mediumaquamarine;
+}
+
+.dark_square {
+    background-color: #d6aef3;
+    color: white;
+    box-shadow: 0 6px 9px gainsboro;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+/* End - Class */
